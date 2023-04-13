@@ -22,12 +22,11 @@ Intelligent Suggestions: The application provides intelligent suggestions based 
 - Run the application using the IDE.
 
 ## Usage:
-- Once the application is running, navigate to http://localhost:8080 to access the login page.
-- Log in using your username and password.
-- Use the various features of the application to manage your employees.
+- Once the application is running, navigate to http://localhost:3000 to access main page.
+- Use the various features of the application to view custom search results
 
 ## Contributing:
-Contributions to StaffMasterPro are always welcome. If you would like to contribute, please follow these steps:
+Contributions to Brainwave are always welcome. If you would like to contribute, please follow these steps:
 
 - Fork the repository.
 - Create a new branch.
