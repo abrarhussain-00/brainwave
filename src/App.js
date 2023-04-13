@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+//==========Component Imports==========
+import Navigation from './components/Navigation';
+import Home  from './components/Home';
+import  Emails  from './components/Emails';
+import ProductDescription from './components/ProductDescription';
+import  Tweets  from './components/Tweets';
+import  Seo  from './components/Seo';
+
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App">
+      <Navigation/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/product-description' element={<ProductDescription/>}/>
+        <Route path='/cold-emails' element={<Emails/>}/>
+        <Route path='/tweets' element={<Tweets/>}/>
+        <Route path='/seo' element={<Seo/>}/>
+      </Routes>
     </div>
   );
 }
