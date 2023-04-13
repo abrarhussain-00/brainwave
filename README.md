@@ -24,6 +24,7 @@ Intelligent Suggestions: The application provides intelligent suggestions based 
 ## Usage:
 - Once the application is running, navigate to http://localhost:3000 to access main page.
 - Use the various features of the application to view custom search results
+- Make sure to obtain a valid API key from GPT-3 in order to fully utilize the natural language processing capabilities of the search engine and generate personalized search results based on user input.
 
 ## Contributing:
 Contributions to Brainwave are always welcome. If you would like to contribute, please follow these steps:
