@@ -1,3 +1,7 @@
+*{
+  background-color: rgb(184,215,243);
+}
+
 .App {
   text-align: center;
 }
@@ -112,3 +116,4 @@ body {
   height: 400px;
   max-width: 300px;
 }
+

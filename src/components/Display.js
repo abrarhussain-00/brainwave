@@ -33,7 +33,7 @@ class Display extends Component {
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>{text}</Card.Text>
                     <Nav.Link href={theLink}>
-                        <Button variant="primary" size='lg'>Get Started</Button>
+                        <Button variant="dark" size='sm'>Get Started</Button>
                     </Nav.Link>
                 </Card.Body>
             </Card>
