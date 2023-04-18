@@ -73,7 +73,7 @@ const Home = () => {
                                 header="🔍 SEO"
                                 title="SEO"
                                 text="Want to make your videos more discoverable? Use the new SEO feature to generate the right keywords for your videos to target the right audience."
-                                theLink="/tweets"
+                                theLink="/seo"
                             />
                         </div>
                     </Col>

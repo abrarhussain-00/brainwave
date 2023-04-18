@@ -42,7 +42,7 @@ class ProductDescription extends Component {
         //OPENAI
         const configuration = new Configuration({
             // apiKey: process.env.OPENAI_API_KEY,
-            apiKey: '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'
+            apiKey: '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'
         });
         console.log('KEY: ', configuration )
         const openai = new OpenAIApi(configuration);

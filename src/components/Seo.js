@@ -42,7 +42,7 @@ class Seo extends Component {
         //OPENAI
         const configuration = new Configuration({
             // apiKey: process.env.OPENAI_API_KEY,
-            apiKey: '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'
+            apiKey: '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'
         });
         console.log('KEY: ', configuration )
         const openai = new OpenAIApi(configuration);
@@ -101,7 +101,7 @@ class Seo extends Component {
                 <Card>
                     <Card.Body>
                         <Card.Title><h3>{this.state.heading}</h3></Card.Title>
-                        console.log(this.state.heading)
+                        {/* console.log(this.state.heading) */}
                         <hr/>
                         <br/>
                         <Card.Text><h6>{this.state.response}</h6></Card.Text>
